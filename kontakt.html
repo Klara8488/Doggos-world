@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Doggo's world</title>
+	<link rel="icon" type="image/png" href="slike/ikona.png">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    
+	<link href="style.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+	<!--   Navigacija  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg_plavo fixed-top shadow-dark sticky-top">
+		<div class="container-fluid">
+			
+			<a href="index.html" class="navbar-brand"> <img src="slike/logo.svg" alt="logo" height="60"></a>
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+				</span> 
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Naslovna</a>
+					</li>
+					<li class="nav-item dropdown">
+        				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ponuda</a>
+        				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          					<a class="dropdown-item" href="friziranje.html">Friziranje pasa</a>
+          					<a class="dropdown-item" href="vrtic.html">Vrtić za pse</a>
+							<a class="dropdown-item" href="hotel.html">Hotel za pse</a>
+    				</li>
+					<li class="nav-item">
+						<a class="nav-link" href="cjenik.html">Cjenik</a>
+                    </li>
+                    <li class="nav-item">
+						<a class="nav-link active" href="kontakt.html">Kontakt</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+    </nav>
+	  
+	<div class="container contents">
+		<br>
+        <div class="container-fluid padding">
+			<div class="row">
+				<div class="col-md-6">
+					<table class="tablica_margina">
+						<tr>
+							<td rowspan="2"><img src="slike/telefon.png" alt="telefon ikona" width="42">&nbsp;</td>
+							<td>+385 51 777-525</td>
+						</tr>
+						<tr><td>+385 99 744-4864</td></tr>
+						<tr><td colspan="2">&nbsp;</td></tr>
+						<tr>
+							<td><img src="slike/mail.png" alt="mail ikona" width="40">&nbsp;</td>
+							<td><a href="mailto:doggos.world@gmail.com" class="text-success">doggos.world@gmail.com</a></td>
+						</tr>
+						<tr><td colspan="2">&nbsp;</td></tr>
+						<tr>
+							<td><img src="slike/lokacija.png" alt="lokacija ikona" width="37">&nbsp;</td>
+							<td>Klana 197</td>
+						</tr>
+						<tr><td colspan="2">&nbsp;</td></tr>
+					</table>
+				</div>
+				<div class="col-md-6">
+					<img src="slike/slika_moja.jpeg" alt="autorska grafika" class="slika">
+				</div>
+				<div class="col-12">
+					<br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.1106278890306!2d14.373581351043272!3d45.447426778998164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4764a553ef47d027%3A0xc8b78b68bf838a56!2sKlana%20197%2C%2051217%2C%20Klana!5e0!3m2!1shr!2shr!4v1630865566580!5m2!1shr!2shr" class="karta" allowfullscreen="" loading="lazy"></iframe>
+				</div>	
+			</div>
+		</div>
+		
+		<br>
+	</div>
+	
+	<footer>
+		<div class="container bg_plavo">
+			<div class="row text-center">
+				<div class="col-12 footer_moj">
+					<p>&copy; Klara Laginja</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	  
+	  
+	  
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>

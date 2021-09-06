@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Doggo's world</title>
+	<link rel="icon" type="image/png" href="slike/ikona.png">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    
+	<link href="style.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+	<!--   Navigacija  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg_plavo fixed-top shadow-dark sticky-top">
+		<div class="container-fluid">
+			
+			<a href="index.html" class="navbar-brand"> <img src="slike/logo.svg" alt="logo" height="60"></a>
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+				</span> 
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Naslovna</a>
+					</li>
+					<li class="nav-item dropdown">
+        				<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ponuda</a>
+        				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          					<a class="dropdown-item" href="friziranje.html">Friziranje pasa</a>
+          					<a class="dropdown-item alert-success" href="vrtic.html">Vrtić za pse</a>
+							<a class="dropdown-item" href="hotel.html">Hotel za pse</a>
+    				</li>
+					<li class="nav-item">
+						<a class="nav-link" href="cjenik.html">Cjenik</a>
+                    </li>
+                    <li class="nav-item">
+						<a class="nav-link" href="kontakt.html">Kontakt</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+    </nav>
+	  
+	<div class="container contents">
+		<div class="row">
+			<div class="col-12 text-center">
+				<br>
+				<p>Svaki dan odlazite na posao i ostavljate svog psa usamljenog? 
+					<br>Želite nabaviti psića, ali ne znate ko će se brinuti o njemu dok Vas nema? 
+				</p>
+				<h5>Mi imamo rješenje!<br><b>VRTIĆ</b></h5><hr>
+			</div>
+			<div class="col-12">
+				<img src="slike/vrtic2.png" alt="vrtic za pse" class="slika">
+			</div>
+			<div class="col-12">
+				<br>
+				<p>Nudimo cjelodnevnu brigu za vašeg psa, kako Vas više ne bi brinulo što sam radi doma.
+				Nijedan pas neće ostati zapostavljen. Imamo prostorije za društvenije pse, kao i za
+				mirnije. Šetnje traju koliko nam Vi kažete, kako ne bismo poremetili navike Vašeg psa.
+				</p>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-md-6">
+				<div id="carousel" class="carousel slide slika_manja" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel" data-slide-to="1"></li>
+						<li data-target="#carousel" data-slide-to="2"></li>
+						<li data-target="#carousel" data-slide-to="3"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item">
+							<img class="d-block w-100" src="slike/psi7.jpg" alt="ruby">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="slike/psi1.jpeg" alt="cukoti">
+						</div>
+						<div class="carousel-item active">
+							<img class="d-block w-100" src="slike/psi5.jpeg" alt="ben">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="slike/psi10.jpg" alt="setnja pasa">
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-12 text-center">
+						<br>Ako smatrate da je naš vrtić pravo rješenje za Vas, <a href="kontakt.html" class="text-success">javite</a> nam se.
+					</div>
+					<div class="col-12">
+						<br>
+						<img src="slike/logo_zeleni.PNG" alt="logo" class="slika_mala">
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>		
+	</div>
+	
+	<footer>
+		<div class="container bg_plavo">
+			<div class="row text-center">
+				<div class="col-12 footer_moj">
+					<p>&copy; Klara Laginja</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	  
+	  
+	  
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
